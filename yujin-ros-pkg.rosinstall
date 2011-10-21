@@ -1,5 +1,3 @@
-# List of ros stacks/repos initiated by Yujin Robot.
-#
 - svn:
     local-name: win_ros
     uri: https://win-ros-pkg.googlecode.com/svn/stacks/win_ros/trunk
