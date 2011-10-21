@@ -1,11 +1,5 @@
 # List of ros stacks/repos initiated by Yujin Robot.
 #
-# Todo: 
-#  - split zeroconf into stack projects
-#  - add the ecl
-#  - rocon-related stacks
-#  - also perhaps cslam
-
 - svn:
     local-name: win_ros
     uri: https://win-ros-pkg.googlecode.com/svn/stacks/win_ros/trunk
