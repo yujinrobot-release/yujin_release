@@ -1,6 +1,22 @@
 - svn:
-    local-name: win_ros
-    uri: https://win-ros-pkg.googlecode.com/svn/stacks/win_ros/trunk
+    local-name: ecl_lite
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite/trunk 
+
+- svn:
+    local-name: ecl_core
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core/trunk 
+
+- svn:
+    local-name: ecl_manipulation
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation/trunk 
+
+- svn:
+    local-name: ecl_navigation
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation/trunk 
+
+- svn:
+    local-name: ecl_tools
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools/trunk 
 
 - svn: 
     uri: https://code.ros.org/svn/eros/trunk
@@ -12,7 +28,16 @@
     version: master
 
 - git:
-    uri: https://github.com/stonier/zeroconf-ros-pkg.git
-    local-name: zeroconf
+    uri: https://github.com/stonier/win_ros.git
+    local-name: win_ros
+    version: master
+
+- git:
+    uri: https://github.com/stonier/zeroconf_implementations.git
+    local-name: zeroconf_implementations
+
+- git:
+    uri: https://github.com/stonier/zeroconf_android.git
+    local-name: zeroconf_android
     version: master
 
