@@ -1,22 +1,22 @@
 - svn:
     local-name: ecl_lite
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite/trunk 
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite 
 
 - svn:
     local-name: ecl_core
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core/trunk 
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core 
 
 - svn:
     local-name: ecl_manipulation
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation/trunk 
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation 
 
 - svn:
     local-name: ecl_navigation
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation/trunk 
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation 
 
 - svn:
     local-name: ecl_tools
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools/trunk 
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools 
 
 - svn: 
     uri: https://code.ros.org/svn/eros/trunk
