@@ -1,0 +1,55 @@
+- other:
+    local-name: /opt/ros/electric/ros
+
+- other:
+    local-name: /opt/ros/electric/stacks
+
+- svn: 
+    uri: 'https://code.ros.org/svn/release/trunk'
+    local-name: release
+
+- svn: 
+    uri: 'https://code.ros.org/svn/ros/stacks/ros_release/trunk'
+    local-name: ros_release
+
+- svn:
+    uri: 'https://code.ros.org/svn/ros/stacks/rosorg/trunk'
+    local-name: rosorg
+
+# Not needed, but won't compile without this.
+- hg:
+    local-name: rosjava_core
+    version: 0b38795943ae
+    uri: 'https://rosjava.googlecode.com/hg'
+
+- git: 
+    uri: 'git://github.com/stonier/zeroconf_implementations.git'
+    version: master 
+    local-name: zeroconf_implementations
+
+- git:
+    uri: git@github.com:stonier/qt_ros.git
+    local-name: qt_ros
+    version: master
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite
+    local-name: ecl_lite
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core
+    local-name: ecl_core
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation
+    local-name: ecl_manipulation
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools
+    local-name: ecl_tools
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation
+    local-name: ecl_navigation
+
+
