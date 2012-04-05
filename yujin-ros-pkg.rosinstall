@@ -23,6 +23,11 @@
     local-name: eros
 
 - git:
+    uri: https://github.com/yujinrobot/kobuki.git
+    local-name: kobuki 
+    version: master
+
+- git:
     uri: https://github.com/stonier/qt_ros.git
     local-name: qt_ros
     version: master
