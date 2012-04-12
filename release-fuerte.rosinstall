@@ -27,6 +27,11 @@
 # Our stacks
 
 - git:
+    uri: git://github.com/yujinrobot/yujin_release.git
+    local-name: yujin_release 
+    version: master
+
+- git:
     uri: git://github.com/stonier/qt_ros.git
     local-name: qt_ros
     version: master
