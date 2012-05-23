@@ -27,41 +27,45 @@
 # Our stacks
 
 - git:
-    uri: git@github.com:yujinrobot/yujin_release.git
+    uri: https://github.com/yujinrobot/yujin_release.git
     local-name: yujin_release 
     version: master
 
 - git:
-    uri: git://github.com/stonier/qt_ros.git
+    uri: https://github.com/stonier/qt_ros.git
     local-name: qt_ros
     version: master
 
 - svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite
-    local-name: ecl_lite
+    uri: https://embedded-control-library.googlecode.com/svn/trunk
+    local-name: ecl
 
-- svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core
-    local-name: ecl_core
-
-- svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation
-    local-name: ecl_manipulation
-
-- svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools
-    local-name: ecl_tools
-
-- svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation
-    local-name: ecl_navigation
+#- svn:
+#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite
+#    local-name: ecl_lite
+#
+#- svn:
+#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core
+#    local-name: ecl_core
+#
+#- svn:
+#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation
+#    local-name: ecl_manipulation
+#
+#- svn:
+#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools
+#    local-name: ecl_tools
+#
+#- svn:
+#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation
+#    local-name: ecl_navigation
 
 - git:
-    uri: git://github.com/yujinrobot/kobuki.git
+    uri: https://github.com/yujinrobot/kobuki.git
     version: master
     local-name: kobuki
 
 - git:
-    uri: git@github.com:stonier/zeroconf_implementations.git
+    uri: https://github.com/stonier/zeroconf_implementations.git
     version: master
     local-name: zeroconf_implementations
