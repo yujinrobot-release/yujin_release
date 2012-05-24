@@ -42,26 +42,6 @@
     uri: https://embedded-control-library.googlecode.com/svn/trunk
     local-name: ecl
 
-#- svn:
-#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_lite
-#    local-name: ecl_lite
-#
-#- svn:
-#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_core
-#    local-name: ecl_core
-#
-#- svn:
-#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_manipulation
-#    local-name: ecl_manipulation
-#
-#- svn:
-#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_tools
-#    local-name: ecl_tools
-#
-#- svn:
-#    uri: https://embedded-control-library.googlecode.com/svn/trunk/ecl_navigation
-#    local-name: ecl_navigation
-
 - git:
     uri: https://github.com/yujinrobot/kobuki.git
     version: master
