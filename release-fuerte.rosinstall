@@ -9,6 +9,8 @@
     local-name: /opt/ros/fuerte/share
 - other:
     local-name: /opt/ros/fuerte/stacks
+- setup-file:
+    local-name: /opt/ros/fuerte/setup.sh
 
 # Release Stacks
 
