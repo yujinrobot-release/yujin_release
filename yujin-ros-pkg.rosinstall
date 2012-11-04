@@ -60,8 +60,4 @@
     local-name: rocon_comms
     version: master
 
-- git:
-    uri: https://github.com/yujinrobot/kobuki.git
-    local-name: kobuki
-    version: master
 
