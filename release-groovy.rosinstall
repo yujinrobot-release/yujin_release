@@ -1,0 +1,54 @@
+#
+# Before rosinstalling!
+# * sudo apt-get install ros-groovy-ros-comm
+
+# Official ROS Stacks
+- other:
+    local-name: /opt/ros/groovy/share/ros
+- other:
+    local-name: /opt/ros/groovy/share
+- other:
+    local-name: /opt/ros/groovy/stacks
+- setup-file:
+    local-name: /opt/ros/groovy/setup.sh
+
+# Release Stacks
+
+- svn:
+    uri: https://code.ros.org/svn/release/trunk
+    local-name: release
+
+#- svn:
+#    uri: https://code.ros.org/svn/ros/stacks/rosorg/trunk
+#    local-name: rosorg
+
+# Our stacks
+
+- git:
+    uri: https://github.com/yujinrobot/yujin_release.git
+    local-name: yujin_release 
+    version: master
+
+- git:
+    uri: https://github.com/stonier/qt_ros.git
+    local-name: qt_ros
+    version: master
+
+- svn:
+    uri: https://embedded-control-library.googlecode.com/svn/trunk
+    local-name: ecl
+
+- git:
+    uri: https://github.com/yujinrobot/kobuki.git
+    version: master
+    local-name: kobuki
+
+- git:
+    uri: https://github.com/stonier/zeroconf_avahi_suite.git
+    version: master
+    local-name: zeroconf_avahi_suite
+
+- git:
+    uri: https://github.com/stonier/zeroconf_comms.git
+    version: master
+    local-name: zeroconf_comms
