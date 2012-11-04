@@ -44,6 +44,21 @@
     local-name: kobuki
 
 - git:
+    uri: https://github.com/yujinrobot/kobuki_desktop.git
+    version: master
+    local-name: kobuki_desktop
+
+- git:
+    uri: https://github.com/robotics-in-concert/rocon_multimaster.git
+    version: master
+    local-name: rocon_multimaster
+
+- git:
+    uri: https://github.com/robotics-in-concert/rocon_comms.git
+    version: master
+    local-name: rocon_comms
+
+- git:
     uri: https://github.com/stonier/zeroconf_avahi_suite.git
     version: master
     local-name: zeroconf_avahi_suite
