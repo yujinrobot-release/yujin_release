@@ -30,6 +30,11 @@
     version: master
 
 - git:
+    uri: https://github.com/yujinrobot/rosdistro.git
+    local-name: rosdistro
+    version: master
+
+- git:
     uri: https://github.com/stonier/qt_ros.git
     local-name: qt_ros
     version: master
