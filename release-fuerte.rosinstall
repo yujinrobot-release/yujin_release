@@ -29,7 +29,7 @@
 # Our stacks
 
 - git:
-    uri: https://github.com/yujinrobot/yujin_release.git
+    uri: https://github.com/yujinrobot-release/yujin_release.git
     local-name: yujin_release 
     version: master
 
