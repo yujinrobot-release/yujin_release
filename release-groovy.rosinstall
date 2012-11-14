@@ -43,6 +43,12 @@
     uri: https://embedded-control-library.googlecode.com/svn/trunk
     local-name: ecl
 
+
+- git:
+    uri: https://github.com/yujinrobot/kobuki_msgs.git
+    version: master
+    local-name: kobuki_msgs
+
 - git:
     uri: https://github.com/yujinrobot/kobuki.git
     version: master
@@ -69,6 +75,6 @@
     local-name: zeroconf_avahi_suite
 
 - git:
-    uri: https://github.com/stonier/zeroconf_comms.git
+    uri: https://github.com/stonier/zeroconf_msgs.git
     version: master
-    local-name: zeroconf_comms
+    local-name: zeroconf_msgs
