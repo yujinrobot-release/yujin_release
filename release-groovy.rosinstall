@@ -65,9 +65,9 @@
     local-name: rocon_multimaster
 
 - git:
-    uri: https://github.com/robotics-in-concert/rocon_comms.git
+    uri: https://github.com/robotics-in-concert/rocon_msgs.git
     version: master
-    local-name: rocon_comms
+    local-name: rocon_msgs
 
 - git:
     uri: https://github.com/stonier/zeroconf_avahi_suite.git
