@@ -39,10 +39,30 @@
     local-name: qt_ros
     version: master
 
-- svn:
-    uri: https://embedded-control-library.googlecode.com/svn/trunk
-    local-name: ecl
+- git:
+    uri: https://github.com/stonier/ecl_tools.git
+    version: master
+    local-name: ecl_tools
 
+- git:
+    uri: https://github.com/stonier/ecl_lite.git
+    version: master
+    local-name: ecl_lite
+
+- git:
+    uri: https://github.com/stonier/ecl_core.git
+    version: master
+    local-name: ecl_core
+
+- git:
+    uri: https://github.com/stonier/ecl_navigation.git
+    version: master
+    local-name: ecl_navigation
+
+- git:
+    uri: https://github.com/stonier/ecl_manipulation.git
+    version: master
+    local-name: ecl_manipulation
 
 - git:
     uri: https://github.com/yujinrobot/kobuki_msgs.git
@@ -68,6 +88,11 @@
     uri: https://github.com/robotics-in-concert/rocon_msgs.git
     version: master
     local-name: rocon_msgs
+
+- git:
+    uri: https://github.com/robotics-in-concert/rocon_demo.git
+    version: master
+    local-name: rocon_demo
 
 - git:
     uri: https://github.com/stonier/zeroconf_avahi_suite.git

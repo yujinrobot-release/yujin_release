@@ -48,6 +48,6 @@
     local-name: kobuki
 
 - git:
-    uri: https://github.com/stonier/zeroconf_implementations.git
+    uri: https://github.com/stonier/zeroconf_avahi_suite.git
     version: master
-    local-name: zeroconf_implementations
+    local-name: zeroconf_avahi_suite
