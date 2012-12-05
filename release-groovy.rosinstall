@@ -65,6 +65,11 @@
     local-name: ecl_manipulation
 
 - git:
+    uri: https://github.com/turtlebot/turtlebot_create.git
+    version: master
+    local-name: turtlebot_create
+
+- git:
     uri: https://github.com/yujinrobot/kobuki_msgs.git
     version: master
     local-name: kobuki_msgs
