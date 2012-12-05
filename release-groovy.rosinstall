@@ -40,31 +40,6 @@
     version: master
 
 - git:
-    uri: https://github.com/stonier/ecl_tools.git
-    version: master
-    local-name: ecl_tools
-
-- git:
-    uri: https://github.com/stonier/ecl_lite.git
-    version: master
-    local-name: ecl_lite
-
-- git:
-    uri: https://github.com/stonier/ecl_core.git
-    version: master
-    local-name: ecl_core
-
-- git:
-    uri: https://github.com/stonier/ecl_navigation.git
-    version: master
-    local-name: ecl_navigation
-
-- git:
-    uri: https://github.com/stonier/ecl_manipulation.git
-    version: master
-    local-name: ecl_manipulation
-
-- git:
     uri: https://github.com/turtlebot/turtlebot_create.git
     version: master
     local-name: turtlebot_create
@@ -115,12 +90,3 @@
     version: master
     local-name: turtlebot_create
 
-- git:
-    uri: https://github.com/stonier/zeroconf_avahi_suite.git
-    version: master
-    local-name: zeroconf_avahi_suite
-
-- git:
-    uri: https://github.com/stonier/zeroconf_msgs.git
-    version: master
-    local-name: zeroconf_msgs
