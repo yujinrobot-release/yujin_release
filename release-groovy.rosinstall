@@ -100,6 +100,11 @@
     local-name: rocon_demo
 
 - git:
+    uri: https://github.com/turtlebot/turtlebot_create.git
+    version: master
+    local-name: turtlebot_create
+
+- git:
     uri: https://github.com/stonier/zeroconf_avahi_suite.git
     version: master
     local-name: zeroconf_avahi_suite
