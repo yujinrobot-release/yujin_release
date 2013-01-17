@@ -86,9 +86,9 @@
     local-name: rocon_msgs
 
 - git:
-    uri: https://github.com/robotics-in-concert/rocon_demo.git
+    uri: https://github.com/robotics-in-concert/rocon_demos.git
     version: master
-    local-name: rocon_demo
+    local-name: rocon_demos
 
 - git:
     uri: https://github.com/turtlebot/turtlebot_create.git
