@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# If you haven't added upstream yet:
+git remote add upstream https://github.com/ros/rosdistro.git
+git fetch upstream
+git merge upstream/master
+git push origin master
