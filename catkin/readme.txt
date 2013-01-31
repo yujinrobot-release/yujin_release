@@ -28,3 +28,7 @@ Otherwise, the usual workflow in one of those folders:
 
 You might need to edit the makefile and redefine the array for a single stack. That
 can be easer debugging than trying to bloom all stacks at once.
+
+Finally, once all your stacks are good to go, edit the version number in 
+https://github.com/ros/rosdistro/blob/master/releases/groovy.yaml to match the latest
+version number in your source/release repos.
