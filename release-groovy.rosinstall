@@ -86,21 +86,6 @@
     local-name: kobuki_desktop
 
 - git:
-    uri: https://github.com/robotics-in-concert/rocon_multimaster.git
-    version: master
-    local-name: rocon_multimaster
-
-- git:
-    uri: https://github.com/robotics-in-concert/rocon_msgs.git
-    version: master
-    local-name: rocon_msgs
-
-- git:
-    uri: https://github.com/robotics-in-concert/rocon_demos.git
-    version: master
-    local-name: rocon_demos
-
-- git:
     uri: https://github.com/turtlebot/turtlebot_create.git
     version: master
     local-name: turtlebot_create
