@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 #REPOS="kobuki_msgs" "kobuki" "yujin_ocs"
-REPOS="yujin_ocs"
+REPOS="yujin_ocs" "kobuki"
 SRC_GIT=https://github.com/yujinrobot
 REL_GIT=https://github.com/yujinrobot-release
 
