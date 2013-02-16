@@ -71,11 +71,6 @@
 
 
 - git:
-    uri: https://github.com/yujinrobot/kobuki_msgs.git
-    version: master
-    local-name: kobuki_msgs
-
-- git:
     uri: https://github.com/yujinrobot/yujin_ocs.git
     version: master
     local-name: yujin_ocs
@@ -89,6 +84,12 @@
     uri: https://github.com/yujinrobot/kobuki_desktop.git
     version: master
     local-name: kobuki_desktop
+
+- git:
+    uri: https://github.com/yujinrobot/kobuki_description.git
+    version: master
+    local-name: kobuki_description
+
 
 - git:
     uri: https://github.com/turtlebot/turtlebot_create.git
