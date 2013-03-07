@@ -24,7 +24,6 @@ Otherwise, the usual workflow in one of those folders:
  > git tag x.y.z -m "first catkinization"
  > git push --tags
 > make bloom
-> make push
 
 You might need to edit the makefile and redefine the array for a single stack. That
 can be easer debugging than trying to bloom all stacks at once.
