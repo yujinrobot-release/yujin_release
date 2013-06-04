@@ -3,6 +3,7 @@ SHELL := /bin/bash
 REPOS="rocon_rqt_plugins"
 SRC_GIT=https://github.com/robotics-in-concert
 REL_GIT=https://github.com/yujinrobot-release
+TRACK=groovy
 
 include ../Makefile
 

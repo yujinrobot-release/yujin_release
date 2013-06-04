@@ -36,12 +36,12 @@ reset:
 
 config:
 	@for i in ${REPOS}; do \
-          cd ${CURDIR}/$${i}-release; git-bloom-config new groovy; \
-        done
+          cd ${CURDIR}/$${i}-release; git-bloom-config new ${TRACK}; git push --all; git push --tag; \
+	done
 
 bloom:
 	@for i in ${REPOS}; do \
-          bloom-release $${i} groovy; \
+          bloom-release $${i} ${TRACK}; \
 	done
 
 clean:
