@@ -41,7 +41,7 @@ config:
 
 bloom:
 	@for i in ${REPOS}; do \
-          bloom-release $${i} ${TRACK}; \
+          bloom-release --track ${TRACK} --rosdistro ${TRACK} $${i}; \
 	done
 
 clean:
