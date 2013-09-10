@@ -15,8 +15,9 @@ help:
 clone:
 	@for i in ${REPOS}; do \
           git clone ${SRC_GIT}/$${i}.git; \
-          git clone ${REL_GIT}/$${i}-release.git; \
+	  git clone ${REL_GIT}/$${i}-release.git; \
         done
+
 
 pull:
 	@for i in ${REPOS}; do \
