@@ -2,5 +2,7 @@ kobuki
 kobuki_msgs
 kobuki-release
 kobuki_msgs-release
+kobuki_core
+kobuki-core-release
 yujin_ocs
 yujin_ocs-release
