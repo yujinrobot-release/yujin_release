@@ -45,6 +45,13 @@ bloom:
           bloom-release --track ${TRACK} --rosdistro ${TRACK} $${i}; \
 	done
 
+package:
+	@for i in ${REPOS}; do \
+	  echo "Make sure you checkout the branch first, e.g."; \
+	  echo "  git checkout -b debian/ros-${TRACK}-<package-dash-name>_<version>_precise"; \
+          cd ${CURDIR}/$${i}-release; git-buildpackage -uc -us  --git-ignore-new; \
+	done
+	
 clean:
 	@for i in ${REPOS}; do \
           rm -rf $${i}; \
