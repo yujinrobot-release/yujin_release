@@ -1,5 +1,10 @@
 SHELL := /bin/bash
 
+ifndef SOURCE_BRANCH
+  $(info SOURCE_BRANCH undefined, setting to $(TRACK))
+  SOURCE_BRANCH=$(TRACK)
+endif
+
 help:
 	@echo "Valid git targets:"
 	@echo "  clone  : clone all source and release repos."
@@ -15,6 +20,9 @@ help:
 clone:
 	@for i in ${REPOS}; do \
           git clone ${SRC_GIT}/$${i}.git; \
+	  cd $${i}; \
+	  git checkout -b ${SOURCE_BRANCH} origin/${SOURCE_BRANCH}; \
+	  cd ..; \
 	  git clone ${REL_GIT}/$${i}-release.git; \
         done
 
