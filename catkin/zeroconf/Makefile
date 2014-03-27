@@ -3,7 +3,7 @@ REPOS="zeroconf_msgs" "zeroconf_avahi_suite"
 REPOS="zeroconf_avahi_suite"
 SRC_GIT=https://github.com/stonier
 REL_GIT=https://github.com/yujinrobot-release
-TRACK=hydro
+TRACK=indigo
 
 include ../Makefile
 
