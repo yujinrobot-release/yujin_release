@@ -3,8 +3,8 @@ SHELL := /bin/bash
 REPOS="ecl_tools"
 SRC_GIT=https://github.com/stonier
 REL_GIT=https://github.com/yujinrobot-release
-TRACK=hydro
-SOURCE_BRANCH=hydro-devel
+TRACK=indigo
+SOURCE_BRANCH=indigo
 
 include ../Makefile
 
