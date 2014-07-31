@@ -57,7 +57,7 @@ package:
 	@for i in ${REPOS}; do \
 	  echo "Make sure you checkout the branch first, e.g."; \
 	  echo "  git checkout -b debian/ros-${TRACK}-<package-dash-name>_<version>_precise"; \
-          cd ${CURDIR}/$${i}-release; git-buildpackage -uc -us  --git-ignore-new; \
+          cd ${CURDIR}/$${i}-release; git-buildpackage -uc -us  --git-ignore-new --git-upstream-tree=tag; \
 	done
 	
 clean:
