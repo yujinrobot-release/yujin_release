@@ -3,7 +3,7 @@ SHELL := /bin/bash
 REPOS="common_tutorials"
 SRC_GIT=https://github.com/ros
 REL_GIT=https://github.com/ros-gbp
-TRACK=hydro-devel
+TRACK=indigo
 SOURCE_BRANCH=hydro-devel
 
 include ../Makefile
