@@ -48,6 +48,11 @@ config:
           cd ${CURDIR}/$${i}-release; git-bloom-config new ${TRACK}; git push --all; git push --tag; \
 	done
 
+edit:
+	@for i in ${REPOS}; do \
+          cd ${CURDIR}/$${i}-release; git-bloom-config edit ${TRACK}; git push --all; git push --tag; \
+	done
+
 bloom:
 	@for i in ${REPOS}; do \
           bloom-release --track ${TRACK} --rosdistro ${TRACK} $${i}; \
