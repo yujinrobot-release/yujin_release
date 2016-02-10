@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-REPOS="qglv_toolkit"
+REPOS="sophus_ros_toolkit"
 SRC_GIT=https://github.com/yujinrobot
 REL_GIT=https://github.com/yujinrobot-release
 TRACK=indigo
