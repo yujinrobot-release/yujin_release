@@ -58,6 +58,11 @@ bloom:
           bloom-release --track ${TRACK} --rosdistro ${TRACK} $${i}; \
 	done
 
+pull-request:
+	@for i in ${REPOS}; do \
+          bloom-release --pull-request-only --track ${TRACK} --rosdistro ${TRACK} $${i}; \
+	done
+
 package:
 	@for i in ${REPOS}; do \
 	  echo "Make sure you checkout the branch first, e.g."; \
