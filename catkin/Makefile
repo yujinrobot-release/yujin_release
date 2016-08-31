@@ -50,7 +50,7 @@ config:
 
 edit:
 	@for i in ${REPOS}; do \
-          cd ${CURDIR}/$${i}-release; git-bloom-config edit ${TRACK}; git push --all; git push --tag; \
+          bloom-release --edit-track --track ${TRACK} --rosdistro ${TRACK} $${i}; \
 	done
 
 bloom:
